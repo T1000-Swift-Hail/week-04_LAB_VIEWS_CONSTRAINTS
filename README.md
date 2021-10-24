@@ -13,5 +13,5 @@
 - Add Constraints to the views  to make them look the same on different screen size. 
 
 ### The app should look like this :
-![alt text](https://raw.githubusercontent.com/T1000-Swift-Hail/week-04_LAB_VIEWS_CONSTRAINTS/main/Screen%20Shot%202021-10-24%20at%2010.03.09%20AM.png?token=AVXWL2QZIPRXT77OHHVELPTBOUC44)
+![alt text](https://github.com/T1000-Swift-Hail/week-04_LAB_VIEWS_CONSTRAINTS/blob/main/Screen%20Shot%202021-10-24%20at%2010.03.09%20AM.png?raw=true)
 
