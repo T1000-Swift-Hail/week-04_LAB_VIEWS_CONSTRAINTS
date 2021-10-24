@@ -17,16 +17,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="t1000" translatesAutoresizingMaskIntoConstraints="NO" id="OEU-I9-NNX">
-                                <rect key="frame" x="7" y="130" width="414" height="139"/>
+                                <rect key="frame" x="14" y="124" width="400" height="203"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="400" id="ACp-1e-eFb"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="414" id="Jxt-dt-76M"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="180" id="Rfh-qM-ecK"/>
-                                    <constraint firstAttribute="height" constant="139" id="ZJq-SH-9DB"/>
+                                    <constraint firstAttribute="width" constant="400" id="53G-Rg-jfa"/>
+                                    <constraint firstAttribute="height" constant="203" id="ftO-Ad-B2E"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hail Swift Camp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKB-zc-4Z4">
-                                <rect key="frame" x="91" y="469" width="246" height="43"/>
+                                <rect key="frame" x="91" y="502" width="246" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -35,11 +33,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="hKB-zc-4Z4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cnp-43-duS"/>
-                            <constraint firstItem="OEU-I9-NNX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="7" id="E6t-nF-ElP"/>
-                            <constraint firstItem="hKB-zc-4Z4" firstAttribute="top" secondItem="OEU-I9-NNX" secondAttribute="bottom" constant="200" id="PYh-II-1cw"/>
-                            <constraint firstItem="OEU-I9-NNX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="130" id="rfe-je-c6e"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OEU-I9-NNX" secondAttribute="trailing" constant="7" id="ygq-YG-6wP"/>
+                            <constraint firstItem="hKB-zc-4Z4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="03D-Jp-aOK"/>
+                            <constraint firstItem="hKB-zc-4Z4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FR4-qf-5Oz"/>
+                            <constraint firstItem="hKB-zc-4Z4" firstAttribute="top" secondItem="OEU-I9-NNX" secondAttribute="bottom" constant="175" id="IVy-bj-jkb"/>
+                            <constraint firstItem="OEU-I9-NNX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VOQ-ks-gKC"/>
+                            <constraint firstItem="hKB-zc-4Z4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b6A-pT-1wN"/>
+                            <constraint firstItem="OEU-I9-NNX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="lzz-OC-V5F"/>
                         </constraints>
                     </view>
                 </viewController>
