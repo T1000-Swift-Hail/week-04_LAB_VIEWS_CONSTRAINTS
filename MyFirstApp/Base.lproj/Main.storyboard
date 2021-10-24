@@ -18,12 +18,13 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Hail Swift Camp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYS-BP-g3X">
                                 <rect key="frame" x="84" y="568" width="246" height="43"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" ambiguous="YES" image="t1000" translatesAutoresizingMaskIntoConstraints="NO" id="4IZ-K1-8gh">
-                                <rect key="frame" x="7" y="165" width="400" height="347"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" ambiguous="YES" misplaced="YES" image="t1000" translatesAutoresizingMaskIntoConstraints="NO" id="4IZ-K1-8gh">
+                                <rect key="frame" x="72" y="221" width="271" height="311"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                             </imageView>
                         </subviews>
