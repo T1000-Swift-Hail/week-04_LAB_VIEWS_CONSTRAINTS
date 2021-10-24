@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,15 +13,18 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="My_First_iOS_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="t1000" translatesAutoresizingMaskIntoConstraints="NO" id="1Zt-5a-EEk">
-                                <rect key="frame" x="120" y="66" width="174" height="451"/>
+                                <rect key="frame" x="-8.6666666666666572" y="195" width="445.33333333333326" height="132"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="132" id="ZXv-kq-dle"/>
+                                </constraints>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hail Swift Camp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4W-vn-gUI">
-                                <rect key="frame" x="84" y="537" width="246" height="43"/>
+                                <rect key="frame" x="91" y="381" width="246" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -30,14 +33,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="J4W-vn-gUI" secondAttribute="bottom" constant="282" id="9YA-p4-L3z"/>
-                            <constraint firstItem="1Zt-5a-EEk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="Bzb-pl-dDq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Zt-5a-EEk" secondAttribute="trailing" constant="120" id="JfU-63-GGj"/>
-                            <constraint firstItem="J4W-vn-gUI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="64" id="MeU-b4-PTF"/>
-                            <constraint firstItem="J4W-vn-gUI" firstAttribute="top" secondItem="1Zt-5a-EEk" secondAttribute="bottom" constant="20" id="R51-XO-KWP"/>
-                            <constraint firstItem="J4W-vn-gUI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aUK-Eg-3QJ"/>
-                            <constraint firstItem="1Zt-5a-EEk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="b87-JT-n4D"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="J4W-vn-gUI" secondAttribute="trailing" constant="64" id="n47-LI-cNj"/>
+                            <constraint firstItem="1Zt-5a-EEk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="151" id="5Hd-kN-p0t"/>
+                            <constraint firstItem="J4W-vn-gUI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dru-pY-agy"/>
+                            <constraint firstItem="1Zt-5a-EEk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RU3-ej-p07"/>
+                            <constraint firstItem="J4W-vn-gUI" firstAttribute="top" secondItem="1Zt-5a-EEk" secondAttribute="bottom" constant="54" id="e8F-yC-UEa"/>
+                            <constraint firstItem="1Zt-5a-EEk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-28.666666666666657" id="n2k-eh-ta9"/>
                         </constraints>
                     </view>
                     <connections>
@@ -46,7 +46,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-28.985507246376812" y="109.15178571428571"/>
+            <point key="canvasLocation" x="-29.600000000000001" y="108.62068965517241"/>
         </scene>
     </scenes>
     <resources>
