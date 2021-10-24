@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="My_First_iOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hail Swift Camp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beW-wu-wqU">
+                                <rect key="frame" x="91" y="441.66666666666669" width="246" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="T1000" translatesAutoresizingMaskIntoConstraints="NO" id="Ygs-1x-Nfn">
+                                <rect key="frame" x="119" y="230" width="190" height="178"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="190" id="16O-FU-U0f"/>
+                                    <constraint firstAttribute="height" constant="178" id="99y-a1-i0B"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstItem="beW-wu-wqU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2hL-io-Fe7"/>
+                            <constraint firstItem="beW-wu-wqU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KAB-Zt-BGL"/>
+                            <constraint firstItem="Ygs-1x-Nfn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tm8-qh-er7"/>
+                            <constraint firstItem="beW-wu-wqU" firstAttribute="top" secondItem="Ygs-1x-Nfn" secondAttribute="bottom" constant="33.5" id="WwT-ao-owN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="string" destination="beW-wu-wqU" id="RpA-rM-zx9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.831775700934578" y="53.779697624190071"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" systemColor="systemIndigoColor"/>
+    <resources>
+        <image name="T1000" width="133.33332824707031" height="133.33332824707031"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
