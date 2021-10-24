@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,33 +13,29 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="My_First_iOS_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="t1000" translatesAutoresizingMaskIntoConstraints="NO" id="Rce-MR-Oej">
-                                <rect key="frame" x="7" y="124" width="400" height="400"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hail Swift Camp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGT-Zu-2aN">
-                                <rect key="frame" x="84" y="557" width="246" height="43"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="246" id="Qkr-WR-mqp"/>
-                                    <constraint firstAttribute="height" constant="43" id="V1J-Am-nAg"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="43" id="bP7-UA-APf"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="htT-OC-EA6"/>
-                                </constraints>
+                                <rect key="frame" x="64.5" y="312" width="246" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="189" verticalHuggingPriority="720" image="t1000" translatesAutoresizingMaskIntoConstraints="NO" id="Rce-MR-Oej">
+                                <rect key="frame" x="103.5" y="49" width="168" height="163"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="168" id="QMX-4z-xS8"/>
+                                    <constraint firstAttribute="height" constant="163" id="cOk-Pv-HgR"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                         <constraints>
-                            <constraint firstItem="IGT-Zu-2aN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6qP-ae-JOo"/>
-                            <constraint firstItem="IGT-Zu-2aN" firstAttribute="top" secondItem="Rce-MR-Oej" secondAttribute="bottom" constant="33" id="FWj-LX-b3n"/>
-                            <constraint firstItem="Rce-MR-Oej" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cPp-nR-WN1"/>
-                            <constraint firstItem="Rce-MR-Oej" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ebz-pi-SYG"/>
-                            <constraint firstItem="Rce-MR-Oej" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i1v-0J-cGc"/>
-                            <constraint firstItem="Rce-MR-Oej" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="ucf-Jh-eEI"/>
+                            <constraint firstItem="IGT-Zu-2aN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Apt-OB-nYr"/>
+                            <constraint firstItem="IGT-Zu-2aN" firstAttribute="top" secondItem="Rce-MR-Oej" secondAttribute="bottom" constant="100" id="DQV-CN-zGY"/>
+                            <constraint firstItem="IGT-Zu-2aN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H5o-bz-eot"/>
+                            <constraint firstItem="Rce-MR-Oej" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vEY-Wa-rQh"/>
                         </constraints>
                     </view>
                 </viewController>
